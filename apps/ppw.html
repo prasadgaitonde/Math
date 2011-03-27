@@ -1,0 +1,77 @@
+<html>  
+     <head>  
+	 	<link rel="stylesheet" type="text/css" href="base.css" />
+         <title>Part Part Whole</title>
+		  
+		 <style type="text/css">
+		 	
+			#all {
+				background-color:#8c8cff;;	
+				width:700px;
+				height :300px ;	
+				border: 3px dotted #aaa;				
+			}
+			
+			
+		    #canvas_container { 
+                 width: 700px; 
+				 height :200px ;
+                 border: 0px solid #aaa; 				 
+             }  
+			 
+			 
+			 .numAndOp > input  {				 
+				margin:10px;			
+			 	width: 50px;
+				height: 50px;
+				font-size:40px;
+				text-align:center;
+			 }
+			 
+			
+			 
+			 .numAndOp #next	  {	
+			 	float:right;			 
+				margin:10px;			
+			 	width: 80px;
+				height: 50px;
+				font-size:20px;
+				text-align:center;
+				;
+			 }
+			 
+			 
+			 
+	     </style>    
+             
+			<script type="text/javascript" src="../raphael/raphael-min.js"></script>
+			<script type="text/javascript" src="../jQuery/jquery-1.4.2.js"></script>   
+			<script type="text/javascript" src="base.js"></script>
+			 <script type="text/javascript" src="ppw.js"></script>
+		 
+     </head>  
+     <body>
+     	  
+		<div id = "all">
+        	
+			<div id="canvas_container"/>
+			
+			<div id = "quiz">			
+			<div class = "numAndOp">
+				<input id ="sum"  readonly = "readonly" align='justify' maxlength="2"  value = "" type = "text"/>
+				<input id ="equals"  readonly = "readonly" align='justify' maxlength="2"  value = "=" type = "text"/>
+				<input id ="number1"  align='justify' maxlength="2"  type = "text"/>
+				<input id ="plus"  readonly = "readonly" align='justify' maxlength="2"  value = "+" type = "text"/>
+				<input id ="number2"  align='justify' maxlength="2"  type = "text"/>
+				<button id = "next">NEXT</button>			
+			</div>
+			
+			<div>
+				<div id="numbers"/>
+			</div>
+			</div> <!-- quiz -->
+			
+			<div id ="score" perRow ='30' perCol ='2'/>
+		  </div> <!-- id = all -->
+     </body>  
+</html>  

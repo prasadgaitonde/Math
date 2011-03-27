@@ -1,0 +1,111 @@
+#parent {
+	position1: relative;
+}
+
+#canvas_container {
+	width: 700px;
+	border: 1px solid #aaa;
+	position: absolute;
+	background-color : #d6f301;
+}
+
+#buttonPanel {
+	position: absolute;
+	top: 200px;
+	left: 520px;
+	width: 100px;
+	height: 100px;
+	/*border: 2px solid #eee;*/
+}
+
+
+
+
+#check {
+	position: absolute;
+	top: 10px;
+}
+
+#clear {
+	position: absolute;
+	top: 40px;
+}
+
+#new {
+	position: absolute;
+	top: 100px;
+}
+
+
+#countersBank { 
+	
+	position: absolute;
+	background-color: #e1ec13 ;
+	
+	left:10px;
+	top:50px;
+	
+	width: 200px;
+	height: 100px;
+	
+	z-index:-1;
+	/*border: 1px solid blue;*/
+}
+
+/*
+#boxes {
+	position1: absolute;
+}
+
+#box1 { 
+	
+	position: absolute;
+	background-color: #c1ec13 ;
+	left:10px;
+	top:170px;
+	
+	width: 150px;
+	height: 150px;
+	z-index:-1;
+	
+	
+	border: 1px solid blue;
+}
+#less{
+	position: absolute;
+	left:10px;
+	top:170px;
+	width: 150px;
+	height:30px;
+	background-color: #c1ec13 ;
+}
+
+#box2 { 
+	
+	position: absolute;
+	background-color:red ;
+	left:170px;
+	top:170px;
+	
+	width: 150px;
+	height: 150px;
+	z-index:-1;
+	
+	
+	border: 1px solid blue;
+}
+
+
+#dotCard {
+	position: absolute;
+	left: 300px;
+	top: 50px;
+	
+	
+	width: 100px;
+	height: 100px;
+	
+	background-color: yellow;
+	position: absolute;
+}
+*/

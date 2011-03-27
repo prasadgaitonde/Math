@@ -1,0 +1,58 @@
+<html>  
+     <head>  
+         <title>Math Activities - Bingo</title>
+		 <style type="text/css">
+		 	 
+             #canvas_container {  
+                 width: 600px;  
+                 border: 1px solid #aaa;  
+				 
+				/* background-color : #d6f301;*/
+             }  
+			 
+			  #currentSum {
+			 	
+			 	width: 50px;
+				height: 30px;
+				font-size:20px;
+							
+			 }
+			
+    	]]>
+	
+			 
+         </style>   
+		 <script type="text/javascript" src="../jQuery/jquery-1.4.2.js"></script>  
+         <script type="text/javascript" src="../raphael/raphael-min.js"></script>  
+		 
+		 <script type="text/javascript" src="base.js"></script>
+		 <script type="text/javascript" src="sector.js"></script>
+		 <script type="text/javascript" src="bingo.js"></script>
+           
+         
+     </head>  
+     <body>  
+         <div id="canvas_container">   
+		 <input id ="num" size = "5" maxlength="2"  type = "text" value=""/>
+		 <input id ="clear"   type = "button" value ="CLEAR"/>      	
+		 <input id ="check"   type = "button" value ="CHECK"/>
+		 <input id ="currentSum"   readonly="readonly" value =""/>
+         </div>  
+		 <div>
+		 <table id = 'mytable' border ='1'>
+		 	<tbody>
+		 		<!--
+		 	<tr>
+		 		<td>12</td>
+				<td>11+1</td>
+		 	</tr>
+			<tr>
+		 		<td>12</td>
+				<td>12+2</td>
+		 	</tr>
+			-->
+			</tbody>
+		 </table>
+		 </div>
+     </body>  
+</html>  

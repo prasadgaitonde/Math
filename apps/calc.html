@@ -1,0 +1,88 @@
+<html>  
+     <head>  
+         <title>Math Activities - Calculator</title>
+		 <style type="text/css">
+		 	 
+             #canvas_container { 
+				position:absolute;
+				left:50px;
+				top:50px;
+
+                 width: 700px;  
+                 border: 2px solid #aaa;  
+             }  
+			 
+			 #num {
+			 	position:absolute;
+				left:50px;
+				top:50px;
+			 	width: 50px;
+				height: 50px;
+				font-size:40px;
+				text-align:center;
+			 }
+			  #sign {
+			 	position:absolute;
+				left:120px;
+				top:50px;
+			 	width: 50px;
+				height: 50px;
+				font-size:40px;
+				text-align:center;
+				
+			 }
+			 
+			  #equals {
+			 	position:absolute;
+				left:190px;
+				top:50px;
+			 	width: 50px;
+				height: 50px;
+				font-size:40px;
+				text-align:center;
+				
+			 }
+			 
+			  #answer {
+			 	position:absolute;
+				left:250px;
+				top:50px;
+			 	width: 70px;
+				height: 50px;
+				font-size:40px;
+				text-align:center;				
+			 }
+			 
+			  #clear {
+			 	position:absolute;
+				left:250px;
+				top:10px;
+			 	width: 50px;
+				height: 30px;
+				font-size:10px;
+				text-align:center;
+				
+			 }
+			
+    	]]>
+	
+			 
+         </style>    
+         <script type="text/javascript" src="../raphael/raphael-min.js"></script>  
+		 <script type="text/javascript" src="base.js"></script>
+		 <script type="text/javascript" src="calc.js"></script>
+           
+         
+     </head>  
+     <body>  
+	 	 
+         <div id="canvas_container">
+         	<input id ="num" size1 = "15" maxlength="2"  type = "text"/>
+			<input id ="sign"  maxlength="1" readonly="readonly" type = "text" value ="+"/>
+			<input id ="equals"  maxlength="1"  type = "button" value ="="/>
+			<input id ="answer"  maxlength="3"  readonly="readonly" type = "text" />
+			
+			<input id ="clear"  maxlength="1"  type = "button" value ="CLEAR"/>
+         </div>  
+     </body>  
+</html>  

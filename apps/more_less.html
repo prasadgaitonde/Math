@@ -1,0 +1,81 @@
+<html>  
+     <head>  
+         <title>More Less</title>
+		  
+		  <link rel="stylesheet" type="text/css" href="base.css" />
+		  
+		 <style type="text/css">
+		 	 
+		    #canvas_container { 
+                 width: 500px; 
+				 height :100px ;
+                 border: 0px solid #aaa; 				 
+             }  
+			 
+			 
+			 #quiz { 
+				margin-top:10px;							 
+                 border: 0px solid #abc;  			
+             }  
+			 
+			 
+			#answer { 						
+				width:40px;
+				height:40px;
+				font-size:30px;	
+				text-align:center;	
+				margin-left:10px;				 	 
+			 }
+			 
+			  #variable {
+			 	float:left;
+				margin-left:10px;
+				width:40px;
+				height:40px;
+				font-size:30px;	
+				text-align:center;
+				}
+			 
+			 #question {
+			 	float:left;
+				margin-left:10px;
+				margin-top:8px;
+				font-size:20px;	
+				border: 0px dotted green; 				
+			 }
+			
+    
+	     </style>    
+            <script type="text/javascript" src="../jQuery/jquery-1.4.2.js"></script> 
+			<script type="text/javascript" src="../raphael/raphael-min.js"></script>  
+			<script type="text/javascript" src="base.js"></script>
+			 <script type="text/javascript" src="more_less.js"></script>
+		 
+     </head>  
+     <body>  
+         <div id = "all">
+		  <div id="canvas_container">
+		  	<!--
+		  	<button id ="next">Next</button>
+			-->
+		  </div>
+			  
+		<div id = "quiz">
+			<div id = "question">Placeholder Text</div>
+			<input id ="variable" readonly = "readonly" align='justify' maxlength="2"  type = "text"/>
+			
+			<div id = "question"> = </div>
+			<input id ="answer" readonly = "readonly" align='justify' maxlength="2"  type = "text"/>
+			
+			<div id="numbers"/>
+			<!--
+			<div id="numbers2"/>
+			-->
+		
+		</div>     <!-- quiz -->
+		
+		<div id ="score" perRow ='30' perCol ='2'/>
+		 	 
+		 </div> <!-- id = all --> 
+     </body>  
+</html>  

@@ -1,0 +1,79 @@
+<html>  
+     <head>  
+         <title>Math Activities - Subitizes</title>
+		 <style type="text/css">
+		 	
+		 	#all {
+				width:700px;
+				height :400px ;
+				background-color:#dfdf00;	
+				/*background-color:#fff;*/
+								
+			}
+			
+			 #canvas_container { 
+                 width: 700px; 
+				 height :200px ;
+                 border: 0px solid #aaa; 				 
+             }  
+			 
+			 
+			 #score {  
+			 	padding:0px;
+				margin-top:5px;
+				
+                 width: 400px;  
+				 height:30px;
+                 border: 1px dotted #aaa;  
+				 background-color :#bec0be;		
+				 
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+				background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+				background: -moz-linear-gradient(top,  #AAA,  #EEE); /* for firefox 3.6+ */					 
+             }
+			   
+			
+			#buttons {  
+			 	margin-left:20px;
+			  	border: 0px solid #aaa;  
+			 }
+			 
+			 #numbers {
+			 	margin-top:20px;  
+			 }
+			
+			 
+			
+    	]]>
+	
+			 
+         </style>    
+         <script type="text/javascript" src="../raphael/raphael-min.js"></script>
+		 
+		 <script type="text/javascript" src="../jQuery/jquery-1.4.2.js"></script>   
+		 
+		 <script type="text/javascript" src="base.js"></script>
+		 <script type="text/javascript" src="subitize.js"></script>
+           
+         
+     </head>  
+     <body>  
+	 
+	 <div id = "all">        	
+			<div id="canvas_container"/>
+			
+			<div id="buttons">
+					<!--
+		 			<button id = "again">Again</button>
+				
+					<button id = "next">Next</button>
+					-->
+				</div>
+				
+			<div id ="score" perRow ='30' perCol ='2'/>
+	</div> <!-- id = all -->
+	 
+	
+		   
+     </body>  
+</html>  
